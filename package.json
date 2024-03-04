@@ -1,0 +1,11 @@
+{
+  "name": "asia22-dev-bot",
+  "version": "0.1.1",
+  "description": "A discord bot by asia22",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Asia4046",
+  "license": "MIT"
+}
