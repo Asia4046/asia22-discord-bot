@@ -34,8 +34,18 @@ client.on('ready', (c) => {
     console.log(table);
 })
 
+client.on('interactionCreate', (interaction) => {
+    if(!interaction.isChatInputCommand()) return;
+
+    if(interaction.commandName === 'hey') {
+        interaction.reply('Hi Kazuto');
+    }
+})
+
 client.on('messageCreate',(message) =>  {
-    console.log(message)
+    if(message.content = 'Hi '){
+        message.reply("Hi Kazuto");
+    }
 })
 
 client.login(A22_TOKEN);
